@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInput {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    aspect-ratio: 1 / 1;
+    background-color: lavender;
+}
+
+/* .gridSquare:hover {
+    background-color: gray;
+} */
